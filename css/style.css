@@ -1,9 +1,41 @@
-.row{
-  text-align:center;
-  
+body{
+  background-color: rgb(10, 168, 147);
 }
-#choices{
-  display:flex;
-  justify-content:space-between;
-  
+
+.win{
+  color: lime;
+  font-size: 50px;
+  border: dotted lime 2px;
+}
+.lose{
+  color: red;
+  font-size: 50px;
+  border: dotted red 2px;
+}
+.draw{
+  color: yellow;
+  font-size: 50px;
+  border: dotted yellow 2px;
+}
+.choice{
+  color: blueviolet;
+  font-size: 25px;
+  border: dotted coral 2px;
+}
+.comp{
+  color: coral;
+  font-size: 25px;
+  border: dotted blueviolet 2px;
+}
+.UserC{
+  color: blueviolet;
+  font-size: 35px;
+}
+.CompC{
+   color: coral;
+  font-size: 35px;
+}
+.result{
+  color: white;
+  font-size: 35px;
 }

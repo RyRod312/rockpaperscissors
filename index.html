@@ -2,12 +2,21 @@
 <html>
 
 <head>
-  <title>RPS Game</title>
+  <title>Rock Paper Scissors Shoot! Game</title>
   <!-- Link CSS here -->
   <link type='text/css' rel='stylesheet' href='css/style.css' />
 </head>
 
 <body>
+  
+<script defer src="script.js"></script>
+
+
+    <h2 class="ex">How to play:</h2>
+    <h3 id="ex2">Choose either Rock, Paper, or Scissors</h3>
+    <p class="beats">Rock > Scissors</p>
+    <p class="beats">Scissors > Paper</p>
+    <p class="beats">Paper > Rock</p>
   
    <!-- HTML/CSS options: In the div below. 
         1. In the header tag, change a title.
@@ -20,7 +29,7 @@
       <h1>Rock Paper Scissors</h1>
       <img src="http://www.coltnews.com/wp-content/uploads/2016/04/RPS.png">
 
-      <h3>Please Submit Your Choice Below</h3>
+      <h3 id="Please">Please Submit Your Choice Below</h3>
       <div>
         <input id="input">
         <button id="shoot">Shoot!</button>
@@ -28,15 +37,18 @@
 
       <div id="choices" class="row">
         <div>
-          <h4>User Choice</h4>
-          <p id="userChoice"></p>
+          <h4 class="UserC">User Choice</h4>
+          <span id="userChoice"> </span>
         </div>
         <div>
-          <h4>Computer Choice</h4>
-          <p id="computerChoice"></p>
+          <h4 class="CompC">Computer Choice</h4>
+          <span id="computerChoice"></span>
         </div>
       </div>
-      <div id="result"></div>
+      <div id="result">
+        <p class="result">Result:</p>
+        <span class="res"></span>
+      </div>
   </div>
 
   <!-- Link JQuery here -->
